@@ -1,0 +1,49 @@
+.container{
+    width: 25vw;
+    margin: 2rem auto;
+    border: thin solid black;
+    padding: 2rem;
+    background-color: rgb(201, 198, 198);
+    color: black;
+    font-size: 2rem;
+    box-sizing: content-box;
+}
+
+@media (max-width: 1000px) {
+
+    .container {
+        width: 25vw;
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 2rem;
+    }
+
+    .ctn-select {
+        flex-wrap: wrap;
+    }
+    .ctn-select > select{
+        width: 100%;
+    }
+
+    .ctn-inputs {
+        flex-wrap: wrap;
+    }
+    .ctn-inputs > input {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .container {
+        width: 25vw;
+        font-size: 2rem;
+    }
+
+    button {
+        font-size: 2rem;
+    }
+}
+
+
